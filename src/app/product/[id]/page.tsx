@@ -28,6 +28,6 @@ const SingleProductPage = () => {
   );
 };
 
-// 1:26:12
+// 1:43:23
 
 export default SingleProductPage
