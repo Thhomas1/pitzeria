@@ -50,5 +50,4 @@ const CartPage = () => {
   )
 }
 
-// 1:47:00
 export default CartPage
