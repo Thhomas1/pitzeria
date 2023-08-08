@@ -207,8 +207,8 @@ export const featuredProducts: Products = [
 export const pizzas: Products = [
   {
     id: 1,
-    title: "Sicilian",
-    desc: "Ignite your taste buds with a fiery combination of spicy pepperoni, jalapeños, crushed red pepper flakes, and melted mozzarella cheese, delivering a kick with every bite.",
+    title: "La Siciliana",
+    desc: "Ardiente de pepperoni picante, jalapeños, hojuelas de pimiento rojo triturado y queso mozzarella derretido, brindando una patada con cada bocado.",
     img: "/temporary/p1.png",
     price: 24.9,
     options: [
@@ -228,8 +228,8 @@ export const pizzas: Products = [
   },
   {
     id: 2,
-    title: "Mediterranean Delight",
-    desc: "Embark on a culinary journey with this Mediterranean-inspired creation, featuring zesty feta cheese, Kalamata olives, sun-dried tomatoes, and a sprinkle of oregano.",
+    title: "La mediterreanea",
+    desc: "Embárquese en un viaje culinario con esta creación de inspiración mediterránea, que incluye queso feta, aceitunas Kalamata, tomates secados al sol y una pizca de orégano.",
     img: "/temporary/p8.png",
     price: 32.9,
     options: [
@@ -250,7 +250,7 @@ export const pizzas: Products = [
   {
     id: 3,
     title: "Bella Napoli",
-    desc: "A classic Italian delight featuring a thin, crispy crust, tangy tomato sauce, fresh mozzarella, and a medley of aromatic herbs topped with lettuce, tomatoes, and a dollop of tangy mayo.",
+    desc: "Una delicia italiana clásica con una corteza delgada y crujiente, salsa de tomate picante, mozzarella fresca y una mezcla de hierbas aromáticas cubiertas con lechuga, tomates y una cucharada de mayonesa picante.",
     img: "/temporary/p3.png",
     price: 26.9,
     options: [
@@ -335,7 +335,7 @@ export const pizzas: Products = [
 
 export const singleProduct: Product = {
   id: 1,
-  title: "Sicilian",
+  title: "La Siciliana",
   desc: "Ignite your taste buds with a fiery combination of spicy pepperoni, jalapeños, crushed red pepper flakes, and melted mozzarella cheese, delivering a kick with every bite.",
   img: "/temporary/p1.png",
   price: 24.9,
@@ -369,24 +369,24 @@ export const menu: Menu = [
   {
     id: 1,
     slug: "pastas",
-    title: "Italian Pastas",
-    desc: "Savor the taste of perfection with our exquisite Italian handmade pasta menu.",
+    title: "Pastas italianas",
+    desc: "El sabor casi tan perfecto traido de la mismisima Roma para toda la gente de Latinoamerica.",
     img: "/temporary/m1.png",
     color: "white",
   },
   {
     id: 2,
     slug: "burgers",
-    title: "Juicy Burgers",
-    desc: "Burger Bliss: Juicy patties, bold flavors, and gourmet toppings galore.",
+    title: "Las Burgers",
+    desc: "Burger con amor: casi como hacerla en tu casa pero con ingredientes exoticos y una presentacion excelente.",
     img: "/temporary/m2.png",
     color: "black",
   },
   {
     id: 3,
     slug: "pizzas",
-    title: "Cheesy Pizzas",
-    desc: "Pizza Paradise: Irresistible slices, mouthwatering toppings, and cheesy perfection.",
+    title: "Pizzas Queso Roque",
+    desc: "Pizza Roquefort: Irresistible, exotica y unica. Con un agradable olor que solo algunos pueden apreciar.",
     img: "/temporary/m3.png",
     color: "white",
   },
