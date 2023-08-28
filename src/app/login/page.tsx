@@ -26,6 +26,4 @@ const LoginPage= () => {
     </div>
   )
 }
-// 1:54:51
-
 export default LoginPage
