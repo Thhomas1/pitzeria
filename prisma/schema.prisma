@@ -26,7 +26,7 @@ model Product {
   createdAt  DateTime @default(now())
   title      String
   desc       String
-  img        String
+  img        String?
   price      Decimal
   isFeatured Boolean  @default(false)
   options    Json[]
@@ -34,4 +34,14 @@ model Product {
   catSlug    String
 }
 
-// 21:17
+model Order {
+  id        String   @id @default(cuid())
+  createdAT DateTime @default(now())
+  price     Decimal
+  products  Json[]
+  intent_id String?  @unique
+}
+
+//Cuando utilizamos el string con ? es not requerido
+
+// 21:177
